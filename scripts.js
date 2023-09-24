@@ -15,7 +15,7 @@ function exibirPaginaDoDia() {
         const contentDiv = document.getElementById("content");
         contentDiv.innerHTML = `<iframe src="${paginaURL}" frameborder="1" width="100%" height="2000px"></iframe>`;
     } else {
-        const paginaURL = "index.html";
+        const paginaURL = "pagina9.html";
         const contentDiv = document.getElementById("content");
         contentDiv.innerHTML = `<iframe src="${paginaURL}" frameborder="0" width="100%" height="100%"></iframe>`;
     }
